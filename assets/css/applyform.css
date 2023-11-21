@@ -1,0 +1,100 @@
+@import "../brower_component/datepicker/css/bootstrap-datepicker.min.css";
+@import "../brower_component/salert/sweetalert.css";
+.progress{
+    border-radius: 0px !important;
+}
+.progress-bar-primary{
+    background: #EA6720 !important;
+}
+.form-steps{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;      
+    position: relative;
+}
+.form-steps li{
+    //background-color: rgba(0, 0, 0, 0.4);       
+    margin: 0px;
+    padding: 0px;    
+    color: #ffffff !important;    
+    display: none;   
+    position: absolute;
+    width: 100%;
+}
+.form-steps li:first-child{
+    display: block;
+}
+.form-steps > li > .boxshadow{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 25px 0px;
+    width: 100%;
+    position: relative;
+} 
+.head_title{
+    font-size: 1.8em;
+    text-shadow: 1px 0px 0px #4F4F4F;
+}
+.head_text{
+    font-size: 15px !important;
+    margin-bottom: 30px;
+}
+.bg-info{
+    color: #4F4F4F;
+    font-size: 16px;
+    padding-top: 15px;
+}
+#FormBox{
+    height: 60vh !important;
+}
+.progress {
+    position: relative;
+}
+.progress > div> span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: black;
+    text-align: center;        
+}
+.form-control{
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    padding: 2px 4px !important;
+    height: 38px !important;
+}
+.input-group-addon{
+    border-radius: 0px !important;
+}
+.appy_form_container{
+    margin-top: 40px;
+}
+.btn{
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    padding: 8px 16px !important;   
+}
+.no-padding{
+    padding: 0px !important;    
+}
+
+.waitModal{
+    display: none; 
+    position: fixed;
+    background: #FFF;
+    width: 800px;    
+    z-index: 10000;
+    top: 0;
+    text-align: center; 
+    left: 0;
+    height: 100vh;
+    min-width:  100%;    
+    
+}
+
+.waitModalLabel{
+    margin-top: 10%;
+    color: #EA6720;
+    text-shadow: 1px 0px 1px #F1F4F6;
+}

@@ -1,0 +1,28 @@
+@import "../component/jq-grid/css/ui.jqgrid-bootstrap.css";
+.navbar-brand{
+    padding: 8px !important;
+}
+.main-container{
+    padding-top: 50px;   
+}
+.ui-search-oper{
+    display: none;
+}
+*{
+    border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+}
+.ui-jqgrid .loading
+{
+    left: 50%;
+    top: 45%;
+    background: url(../images/sm-loader.gif) left;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;    
+    margin-left: -20px;
+    font-size: 0px; 
+}

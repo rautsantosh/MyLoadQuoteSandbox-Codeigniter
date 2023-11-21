@@ -1,0 +1,10 @@
+body{
+    background: #f9f9f9;
+}
+.loginpanel{
+    top: 25%;
+    margin-top: 25%;
+}
+.control-label{
+    font-weight: normal;
+}
